@@ -1,14 +1,15 @@
-# Miron-Engine
-The Miron-Engine is the adaptation engine and the main repository of the organization. It provides a step-by-step on how to setup the computer and what are the required changes to integrate Miron, RoQME, MOOD2Be and Smartsoft.
-Please make sure to read the documentation in the Documentation folder and the tutorials to be able to install all the required components to run the application. The system has several dependencies and one must set up the inter-process communication to be able to run the full system.
+# The MIRoN Toolchain
+This is the main repository of the MIRoN Toolchain, developed as part of the MIRoN Integrated Technical Project (ITP), funded by the H2020 RobMoSys Project (Gran Agreement No. 732410). 
 
-Basically, one will need to install the following modules:
+Installing, setting up and using the MIRoN Toolchain requires installing the following modules:
+
 - Smartsoft, and switch to the Miron-Organization branch on several repositories, e.g., ComponentRepository, SystemRepository, DataRepository and others.
-- MOOD2Be, the BehaviourTree manager
-- ZMQ, the inter-process module
-- RoQME, the tool to model non-funtional models
-- Miron-Engine, the tool for adaptation
-- 3rd Party libraries: OMPL, MRQT, Webots for simulation
+- MOOD2BE: BehaviourTree manager.
+- ZMQ: inter-process communication module.
+- The RoQME Toolchain, enabling the design-time modelling and runtime estimation of QoS metrics define don non-functional properties.
+- The MIRoN Toolchain, enabling the modelling of the system variation points (i.e., parameters and alternative/optional behaviours) and the adaptation logic required to configure those variation points at runtime according with the evolution of relevant QoS metrics.
+- A number of third party libraries, e.g., OMPL, MRQT or Webots for simulation.
 
-Please continue the tutorial in the Documentation folder.
+Detailed installation instructions are available in the Documentation folder.
+
 
