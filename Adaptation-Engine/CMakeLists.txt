@@ -31,6 +31,6 @@ link_directories($ENV{ROQME_ROOT}/roqmeDDS/lib)
 
 #file(GLOB_RECURSE SRC_${PROJECT_NAME} src/*.cpp)
 
-add_executable(${PROJECT_NAME}_engine Adaptation-Engine.cpp)
-target_link_libraries(${PROJECT_NAME}_engine -lzmq -pthread -ldcpsgapi -ldcpsgapi -lddsdatabase -lddsos -lddskernel -ldcpsisocpp2 -lroqmedds )
+add_executable(${PROJECT_NAME} Adaptation-Engine.cpp)
+target_link_libraries(${PROJECT_NAME} -lzmq -pthread -ldcpsgapi -ldcpsgapi -lddsdatabase -lddsos -lddskernel -ldcpsisocpp2 -lroqmedds )
 
