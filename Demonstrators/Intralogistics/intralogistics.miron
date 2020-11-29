@@ -1,0 +1,28 @@
+
+import "intralogistics.bt" as main
+import "intralogistics.roqme" as roqme
+
+varpoint task : enum {
+	pick : main.PickDeliverCharge,
+	deliver : main.DeliverCharge,
+	dock : main.Charge,
+	pickDeliverCharge : preset
+} in main.PickDeliverChargeSubtree
+
+varpoint maxVelocity : number (10:1:100) {
+	10 affects roqme.safety++,
+	100 affects roqme.mission_completion++
+} in arch {
+	parameterSetRepository "CommNavigationObjects"
+	parameterSet "CdlParameter"
+	component "SmartCdlServer"
+	parameter "transvel"
+} 
+
+rule noBattery : roqme.power_autonomy < 0.3 
+	implies task = task::dock
+	
+	
+	
+	
+	
