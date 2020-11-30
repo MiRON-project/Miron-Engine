@@ -58,3 +58,6 @@ And run the system, as explained in the Documentation section.
 
 # Videos
 
+[![Parameter Adaptation](http://img.youtube.com/vi/UeFv6lqiZwc/0.jpg)](http://www.youtube.com/watch?v=UeFv6lqiZwc "Parameter Adaptation")
+
+[![Recharging Variant](http://img.youtube.com/vi/pTHJhKiMcy4/0.jpg)](http://www.youtube.com/watch?v=pTHJhKiMcy4 "Recharging Variant")
