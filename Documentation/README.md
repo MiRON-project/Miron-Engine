@@ -72,8 +72,8 @@ It is worth noting that before building the system, option (6), one must run cod
 ---
 ## Installation of the MIRoN Modeling Tools
 
-1. Download the MIRoN Eclipse plugin (MIRoN-Eclipse-Tools-vXXXX) from
-https://github.com/MiRON-project/Miron-Framework/tree/master/Tools/Eclipse-Modeling-Tools/Plugins. Note that the MIRON modeling tools require the installation of the RoQME plugins. Optionally, you can choose RoQME-MIRoN-Eclipse-Tools-vXXXX, which contains all the RoQME and MIRON plugins.
+1. Download the MIRoN Eclipse plugin (MIRoN-Eclipse-Tools-vXXXX.zip) from
+https://github.com/MiRON-project/Miron-Framework/tree/master/Tools/Eclipse-Modeling-Tools/Plugins. Note that the MIRON modeling tools require the installation of the RoQME plugins. Optionally, you can choose the file RoQME-MIRoN-Eclipse-Tools-vXXXX.zip, which contains all the RoQME and MIRON plugins.
 
 2. Create a new “MIRoN” folder at “/home/smartsoft” and extract the file previously downloaded in (1).
 
