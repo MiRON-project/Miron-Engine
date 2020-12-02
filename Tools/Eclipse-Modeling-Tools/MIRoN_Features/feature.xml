@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="MIRoN_Features"
+      label="MIRoN Eclipse Tools"
+      version="1.0.0.qualifier"
+	  provider-name="University of Extremadura, University of Málaga, Blue Ocean Robotics">
+   
+   <description url="https://robmosys.eu/miron/">
+      MIRoN Plugins. &quot;MIRoN: QoS Metrics-in-the-loop for better robot navigation&quot; was an Integrated Technical Project (ITP) funded in the context of the EU H2020 RobMoSys project. MIRoN ​provides tools to endow robots with the ability of self-adapting its course of action according to the external and internal context at runtime.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      MIRoN is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published
+by the Free Software Foundation; either version 3 of the License,
+or any later version.
+RoQME is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
+License for more details.
+GNU GPLv3 link: http://www.gnu.org/licenses/gpl-3.0.html
+Copyright (C) 2020  University of Extremadura, University of
+Malaga, Blue Ocean Robotics.
+   </copyright>
+
+   <license url="http://www.example.com/license">
+MIRoN is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or any later version.
+
+MIRoN is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+GNU GPLv3 link: http://www.gnu.org/licenses/gpl-3.0.html
+
+Copyright (C) 2019  University of Extremadura, University of Malaga, Blue Ocean Robotics.
+   </license>
+
+   <plugin
+         id="behaviortree.metamodel"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.editor.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.editor.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="behaviortree.editor.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="behaviortree.editor.ide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="behaviortree.editor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="miron.metamodel"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
