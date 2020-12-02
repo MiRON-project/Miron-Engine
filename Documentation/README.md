@@ -70,6 +70,19 @@ It is worth noting that before building the system, option (6), one must run cod
       ```
 
 ---
+## Installation of the MIRoN Modeling Tools
+
+1. Download the MIRoN Eclipse plugin (MIRoN-Eclipse-Tools-vXXXX) from
+https://github.com/MiRON-project/Miron-Framework/tree/master/Tools/Eclipse-Modeling-Tools/Plugins. Note that the MIRON modeling tools require the installation of the RoQME plugins. Optionally, you can choose RoQME-MIRoN-Eclipse-Tools-vXXXX, which contains all the RoQME and MIRON plugins.
+
+2. Create a new “MIRoN” folder at “/home/smartsoft” and extract the file previously downloaded in (1).
+
+3. Launch Eclipse and install the MIRoN plugin in Eclipse, by selecting the following menu options:
+Help - > Install New Software… - > Add… - > Local… - > {Repository path}
+
+4. Restart Eclipse 
+
+---
 ## Sytem Run
 
 Start the system by running "bash src-gen/deployment/deploy-all.sh" on a terminal in the path “~/SOFTWARE/smartsoft/repos/SystemRepositories/MIRON-Systems/SystemWebotsTiagoNavigation/smartsoft”
