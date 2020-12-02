@@ -26,9 +26,7 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.FileEditorInput;
 import org.eclipse.xtext.resource.XtextResourceSet;
 import org.eclipse.xtext.ui.editor.XtextEditor;
-
 import com.google.inject.Injector;
-
 import miron.generator.mzn.MironMznGenerator;
 import miron.generator.tools.MironBtWeaver;
 import miron.generator.tools.MironVpSampler;
