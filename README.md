@@ -1,7 +1,7 @@
-# The MIRoN Toolchain
-This is the main repository of the MIRoN Toolchain, developed as part of the MIRoN Integrated Technical Project (ITP), funded by the H2020 RobMoSys Project (Gran Agreement No. 732410). 
+# The MIRoN Framework
+This is the main repository of the MIRoN Framework, developed as part of the MIRoN Integrated Technical Project (ITP), funded by the H2020 RobMoSys Project (Gran Agreement No. 732410). 
 
-Installing, setting up and using the MIRoN Toolchain requires installing the following modules:
+Installing, setting up and using the MIRoN Framework requires installing the following modules:
 
 - Smartsoft, and switch to the Miron-Organization branch on several repositories, e.g., ComponentRepository, SystemRepository, DataRepository and others.
 - MOOD2BE: BehaviourTree manager.
